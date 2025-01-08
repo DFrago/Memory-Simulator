@@ -1,0 +1,17 @@
+building test
+running test
+done
+results
+
+main
+Run by anthony at Wed Apr 24 15:39:42 2024
+Performance
+cost: 3492
+DRAM reads: 0
+DRAM writes: 0
+cache line reads: 61
+cache line writes: 36
+cache hits: 113
+cache misses: 61
+tlb hits: 6
+tlb misses: 52

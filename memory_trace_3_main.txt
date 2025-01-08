@@ -1,0 +1,700 @@
+Setting up page table
+
+
+creating the page table
+
+write addr: 00000000
+	dram cache read addr: 00000000  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss (empty) addr:00000000 set:0  entry:0
+	done addr: 00000000 value: 111
+write addr: 00000004
+	cache hit addr:00000004  set:0  entry:0
+	done addr: 00000004 value: 110
+write addr: 00000008
+	cache hit addr:00000008  set:0  entry:0
+	done addr: 00000008 value: 109
+write addr: 0000000c
+	cache hit addr:0000000c  set:0  entry:0
+	done addr: 0000000c value: 108
+write addr: 00000010
+	cache hit addr:00000010  set:0  entry:0
+	done addr: 00000010 value: 107
+write addr: 00000014
+	cache hit addr:00000014  set:0  entry:0
+	done addr: 00000014 value: 106
+write addr: 00000018
+	cache hit addr:00000018  set:0  entry:0
+	done addr: 00000018 value: 105
+write addr: 0000001c
+	cache hit addr:0000001c  set:0  entry:0
+	done addr: 0000001c value: 104
+write addr: 00000020
+	dram cache read addr: 00000020  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss (empty) addr:00000020 set:1  entry:0
+	done addr: 00000020 value: 103
+write addr: 00000024
+	cache hit addr:00000024  set:1  entry:0
+	done addr: 00000024 value: 102
+write addr: 00000028
+	cache hit addr:00000028  set:1  entry:0
+	done addr: 00000028 value: 101
+write addr: 0000002c
+	cache hit addr:0000002c  set:1  entry:0
+	done addr: 0000002c value: 100
+write addr: 00000030
+	cache hit addr:00000030  set:1  entry:0
+	done addr: 00000030 value: 99
+write addr: 00000034
+	cache hit addr:00000034  set:1  entry:0
+	done addr: 00000034 value: 98
+write addr: 00000038
+	cache hit addr:00000038  set:1  entry:0
+	done addr: 00000038 value: 97
+write addr: 0000003c
+	cache hit addr:0000003c  set:1  entry:0
+	done addr: 0000003c value: 96
+write addr: 00000040
+	dram cache read addr: 00000040  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss (empty) addr:00000040 set:2  entry:0
+	done addr: 00000040 value: 95
+write addr: 00000044
+	cache hit addr:00000044  set:2  entry:0
+	done addr: 00000044 value: 94
+write addr: 00000048
+	cache hit addr:00000048  set:2  entry:0
+	done addr: 00000048 value: 93
+write addr: 0000004c
+	cache hit addr:0000004c  set:2  entry:0
+	done addr: 0000004c value: 92
+write addr: 00000050
+	cache hit addr:00000050  set:2  entry:0
+	done addr: 00000050 value: 91
+write addr: 00000054
+	cache hit addr:00000054  set:2  entry:0
+	done addr: 00000054 value: 90
+write addr: 00000058
+	cache hit addr:00000058  set:2  entry:0
+	done addr: 00000058 value: 89
+write addr: 0000005c
+	cache hit addr:0000005c  set:2  entry:0
+	done addr: 0000005c value: 88
+write addr: 00000060
+	dram cache read addr: 00000060  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss (empty) addr:00000060 set:3  entry:0
+	done addr: 00000060 value: 87
+write addr: 00000064
+	cache hit addr:00000064  set:3  entry:0
+	done addr: 00000064 value: 86
+write addr: 00000068
+	cache hit addr:00000068  set:3  entry:0
+	done addr: 00000068 value: 85
+write addr: 0000006c
+	cache hit addr:0000006c  set:3  entry:0
+	done addr: 0000006c value: 84
+write addr: 00000070
+	cache hit addr:00000070  set:3  entry:0
+	done addr: 00000070 value: 83
+write addr: 00000074
+	cache hit addr:00000074  set:3  entry:0
+	done addr: 00000074 value: 82
+write addr: 00000078
+	cache hit addr:00000078  set:3  entry:0
+	done addr: 00000078 value: 81
+write addr: 0000007c
+	cache hit addr:0000007c  set:3  entry:0
+	done addr: 0000007c value: 80
+write addr: 00000080
+	dram cache read addr: 00000080  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss (empty) addr:00000080 set:0  entry:1
+	done addr: 00000080 value: 79
+write addr: 00000084
+	cache hit addr:00000084  set:0  entry:1
+	done addr: 00000084 value: 78
+write addr: 00000088
+	cache hit addr:00000088  set:0  entry:1
+	done addr: 00000088 value: 77
+write addr: 0000008c
+	cache hit addr:0000008c  set:0  entry:1
+	done addr: 0000008c value: 76
+write addr: 00000090
+	cache hit addr:00000090  set:0  entry:1
+	done addr: 00000090 value: 75
+write addr: 00000094
+	cache hit addr:00000094  set:0  entry:1
+	done addr: 00000094 value: 74
+write addr: 00000098
+	cache hit addr:00000098  set:0  entry:1
+	done addr: 00000098 value: 73
+write addr: 0000009c
+	cache hit addr:0000009c  set:0  entry:1
+	done addr: 0000009c value: 72
+write addr: 000000a0
+	dram cache read addr: 000000a0  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss (empty) addr:000000a0 set:1  entry:1
+	done addr: 000000a0 value: 71
+write addr: 000000a4
+	cache hit addr:000000a4  set:1  entry:1
+	done addr: 000000a4 value: 70
+write addr: 000000a8
+	cache hit addr:000000a8  set:1  entry:1
+	done addr: 000000a8 value: 69
+write addr: 000000ac
+	cache hit addr:000000ac  set:1  entry:1
+	done addr: 000000ac value: 68
+write addr: 000000b0
+	cache hit addr:000000b0  set:1  entry:1
+	done addr: 000000b0 value: 67
+write addr: 000000b4
+	cache hit addr:000000b4  set:1  entry:1
+	done addr: 000000b4 value: 66
+write addr: 000000b8
+	cache hit addr:000000b8  set:1  entry:1
+	done addr: 000000b8 value: 65
+write addr: 000000bc
+	cache hit addr:000000bc  set:1  entry:1
+	done addr: 000000bc value: 64
+write addr: 000000c0
+	dram cache read addr: 000000c0  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss (empty) addr:000000c0 set:2  entry:1
+	done addr: 000000c0 value: 0
+write addr: 000000c4
+	cache hit addr:000000c4  set:2  entry:1
+	done addr: 000000c4 value: 0
+write addr: 000000c8
+	cache hit addr:000000c8  set:2  entry:1
+	done addr: 000000c8 value: 0
+write addr: 000000cc
+	cache hit addr:000000cc  set:2  entry:1
+	done addr: 000000cc value: 0
+write addr: 000000d0
+	cache hit addr:000000d0  set:2  entry:1
+	done addr: 000000d0 value: 0
+write addr: 000000d4
+	cache hit addr:000000d4  set:2  entry:1
+	done addr: 000000d4 value: 0
+write addr: 000000d8
+	cache hit addr:000000d8  set:2  entry:1
+	done addr: 000000d8 value: 0
+write addr: 000000dc
+	cache hit addr:000000dc  set:2  entry:1
+	done addr: 000000dc value: 0
+write addr: 000000e0
+	dram cache read addr: 000000e0  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss (empty) addr:000000e0 set:3  entry:1
+	done addr: 000000e0 value: 0
+write addr: 000000e4
+	cache hit addr:000000e4  set:3  entry:1
+	done addr: 000000e4 value: 0
+write addr: 000000e8
+	cache hit addr:000000e8  set:3  entry:1
+	done addr: 000000e8 value: 0
+write addr: 000000ec
+	cache hit addr:000000ec  set:3  entry:1
+	done addr: 000000ec value: 0
+write addr: 000000f0
+	cache hit addr:000000f0  set:3  entry:1
+	done addr: 000000f0 value: 0
+write addr: 000000f4
+	cache hit addr:000000f4  set:3  entry:1
+	done addr: 000000f4 value: 0
+write addr: 000000f8
+	cache hit addr:000000f8  set:3  entry:1
+	done addr: 000000f8 value: 0
+write addr: 000000fc
+	cache hit addr:000000fc  set:3  entry:1
+	done addr: 000000fc value: 0
+
+Virtual memory enabled
+starting test with vm
+
+write addr: 00002000
+	tlb miss for page 8
+	Virtual address translation for 00002000
+		cache hit addr:00000020  set:1  entry:0
+		Physical address is 00009c00
+	dram cache write addr: 00000000  value: 6f000000 6e000000 6d000000 6c000000 6b000000 6a000000 69000000 68000000
+	dram cache read addr: 00009c00  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00009c00 set:0  entry:0
+	done addr: 00002000 value: 8192
+write addr: 00002400
+	tlb miss for page 9
+	Virtual address translation for 00002400
+		cache hit addr:00000024  set:1  entry:0
+		Physical address is 00009800
+	dram cache write addr: 00000080  value: 4f000000 4e000000 4d000000 4c000000 4b000000 4a000000 49000000 48000000
+	dram cache read addr: 00009800  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00009800 set:0  entry:1
+	done addr: 00002400 value: 9216
+write addr: 00002800
+	tlb miss for page 10
+	Virtual address translation for 00002800
+		cache hit addr:00000028  set:1  entry:0
+		Physical address is 00009400
+	dram cache write addr: 00009c00  value: 00200000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00009400  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00009400 set:0  entry:0
+	done addr: 00002800 value: 10240
+write addr: 00002c00
+	tlb miss for page 11
+	Virtual address translation for 00002c00
+		cache hit addr:0000002c  set:1  entry:0
+		Physical address is 00009000
+	dram cache write addr: 00009800  value: 00240000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00009000  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00009000 set:0  entry:1
+	done addr: 00002c00 value: 11264
+write addr: 00003000
+	tlb miss for page 12
+	Virtual address translation for 00003000
+		cache hit addr:00000030  set:1  entry:0
+		Physical address is 00008c00
+	dram cache write addr: 00009400  value: 00280000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00008c00  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00008c00 set:0  entry:0
+	done addr: 00003000 value: 12288
+write addr: 00003400
+	tlb miss for page 13
+	Virtual address translation for 00003400
+		cache hit addr:00000034  set:1  entry:0
+		Physical address is 00008800
+	dram cache write addr: 00009000  value: 002c0000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00008800  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00008800 set:0  entry:1
+	done addr: 00003400 value: 13312
+write addr: 00003800
+	tlb miss for page 14
+	Virtual address translation for 00003800
+		cache hit addr:00000038  set:1  entry:0
+		Physical address is 00008400
+	dram cache write addr: 00008c00  value: 00300000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00008400  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00008400 set:0  entry:0
+	done addr: 00003800 value: 14336
+write addr: 00003c00
+	tlb miss for page 15
+	Virtual address translation for 00003c00
+		cache hit addr:0000003c  set:1  entry:0
+		Physical address is 00008000
+	dram cache write addr: 00008800  value: 00340000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00008000  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00008000 set:0  entry:1
+	done addr: 00003c00 value: 15360
+write addr: 00004000
+	tlb miss for page 16
+	Virtual address translation for 00004000
+		cache hit addr:00000040  set:2  entry:0
+		Physical address is 00007c00
+	dram cache write addr: 00008400  value: 00380000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00007c00  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00007c00 set:0  entry:0
+	done addr: 00004000 value: 16384
+write addr: 00004400
+	tlb miss for page 17
+	Virtual address translation for 00004400
+		cache hit addr:00000044  set:2  entry:0
+		Physical address is 00007800
+	dram cache write addr: 00008000  value: 003c0000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00007800  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00007800 set:0  entry:1
+	done addr: 00004400 value: 17408
+write addr: 00004800
+	tlb miss for page 18
+	Virtual address translation for 00004800
+		cache hit addr:00000048  set:2  entry:0
+		Physical address is 00007400
+	dram cache write addr: 00007c00  value: 00400000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00007400  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00007400 set:0  entry:0
+	done addr: 00004800 value: 18432
+write addr: 00004c00
+	tlb miss for page 19
+	Virtual address translation for 00004c00
+		cache hit addr:0000004c  set:2  entry:0
+		Physical address is 00007000
+	dram cache write addr: 00007800  value: 00440000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00007000  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00007000 set:0  entry:1
+	done addr: 00004c00 value: 19456
+write addr: 00005000
+	tlb miss for page 20
+	Virtual address translation for 00005000
+		cache hit addr:00000050  set:2  entry:0
+		Physical address is 00006c00
+	dram cache write addr: 00007400  value: 00480000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00006c00  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00006c00 set:0  entry:0
+	done addr: 00005000 value: 20480
+write addr: 00005400
+	tlb miss for page 21
+	Virtual address translation for 00005400
+		cache hit addr:00000054  set:2  entry:0
+		Physical address is 00006800
+	dram cache write addr: 00007000  value: 004c0000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00006800  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00006800 set:0  entry:1
+	done addr: 00005400 value: 21504
+write addr: 00005800
+	tlb miss for page 22
+	Virtual address translation for 00005800
+		cache hit addr:00000058  set:2  entry:0
+		Physical address is 00006400
+	dram cache write addr: 00006c00  value: 00500000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00006400  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00006400 set:0  entry:0
+	done addr: 00005800 value: 22528
+write addr: 00005c00
+	tlb miss for page 23
+	Virtual address translation for 00005c00
+		cache hit addr:0000005c  set:2  entry:0
+		Physical address is 00006000
+	dram cache write addr: 00006800  value: 00540000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00006000  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00006000 set:0  entry:1
+	done addr: 00005c00 value: 23552
+write addr: 00006000
+	tlb miss for page 24
+	Virtual address translation for 00006000
+		cache hit addr:00000060  set:3  entry:0
+		Physical address is 00005c00
+	dram cache write addr: 00006400  value: 00580000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00005c00  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00005c00 set:0  entry:0
+	done addr: 00006000 value: 24576
+write addr: 00006400
+	tlb miss for page 25
+	Virtual address translation for 00006400
+		cache hit addr:00000064  set:3  entry:0
+		Physical address is 00005800
+	dram cache write addr: 00006000  value: 005c0000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00005800  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00005800 set:0  entry:1
+	done addr: 00006400 value: 25600
+write addr: 00006800
+	tlb miss for page 26
+	Virtual address translation for 00006800
+		cache hit addr:00000068  set:3  entry:0
+		Physical address is 00005400
+	dram cache write addr: 00005c00  value: 00600000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00005400  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00005400 set:0  entry:0
+	done addr: 00006800 value: 26624
+write addr: 00006c00
+	tlb miss for page 27
+	Virtual address translation for 00006c00
+		cache hit addr:0000006c  set:3  entry:0
+		Physical address is 00005000
+	dram cache write addr: 00005800  value: 00640000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00005000  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00005000 set:0  entry:1
+	done addr: 00006c00 value: 27648
+write addr: 00007000
+	tlb miss for page 28
+	Virtual address translation for 00007000
+		cache hit addr:00000070  set:3  entry:0
+		Physical address is 00004c00
+	dram cache write addr: 00005400  value: 00680000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00004c00  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00004c00 set:0  entry:0
+	done addr: 00007000 value: 28672
+write addr: 00007400
+	tlb miss for page 29
+	Virtual address translation for 00007400
+		cache hit addr:00000074  set:3  entry:0
+		Physical address is 00004800
+	dram cache write addr: 00005000  value: 006c0000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00004800  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00004800 set:0  entry:1
+	done addr: 00007400 value: 29696
+write addr: 00007800
+	tlb miss for page 30
+	Virtual address translation for 00007800
+		cache hit addr:00000078  set:3  entry:0
+		Physical address is 00004400
+	dram cache write addr: 00004c00  value: 00700000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00004400  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00004400 set:0  entry:0
+	done addr: 00007800 value: 30720
+write addr: 00007c00
+	tlb miss for page 31
+	Virtual address translation for 00007c00
+		cache hit addr:0000007c  set:3  entry:0
+		Physical address is 00004000
+	dram cache write addr: 00004800  value: 00740000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00004000  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00004000 set:0  entry:1
+	done addr: 00007c00 value: 31744
+read addr: 00002000
+	tlb miss for page 8
+	Virtual address translation for 00002000
+		cache hit addr:00000020  set:1  entry:0
+		Physical address is 00009c00
+	dram cache write addr: 00004400  value: 00780000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00009c00  value: 00200000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00009c00 set:0  entry:0
+	done addr: 00002000 value: 8192
+read addr: 00002400
+	tlb miss for page 9
+	Virtual address translation for 00002400
+		cache hit addr:00000024  set:1  entry:0
+		Physical address is 00009800
+	dram cache write addr: 00004000  value: 007c0000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 00009800  value: 00240000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00009800 set:0  entry:1
+	done addr: 00002400 value: 9216
+read addr: 00002800
+	tlb miss for page 10
+	Virtual address translation for 00002800
+		cache hit addr:00000028  set:1  entry:0
+		Physical address is 00009400
+	dram cache read addr: 00009400  value: 00280000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00009400 set:0  entry:0
+	done addr: 00002800 value: 10240
+read addr: 00002c00
+	tlb miss for page 11
+	Virtual address translation for 00002c00
+		cache hit addr:0000002c  set:1  entry:0
+		Physical address is 00009000
+	dram cache read addr: 00009000  value: 002c0000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00009000 set:0  entry:1
+	done addr: 00002c00 value: 11264
+read addr: 00003000
+	tlb miss for page 12
+	Virtual address translation for 00003000
+		cache hit addr:00000030  set:1  entry:0
+		Physical address is 00008c00
+	dram cache read addr: 00008c00  value: 00300000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00008c00 set:0  entry:0
+	done addr: 00003000 value: 12288
+read addr: 00003400
+	tlb miss for page 13
+	Virtual address translation for 00003400
+		cache hit addr:00000034  set:1  entry:0
+		Physical address is 00008800
+	dram cache read addr: 00008800  value: 00340000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00008800 set:0  entry:1
+	done addr: 00003400 value: 13312
+read addr: 00003800
+	tlb miss for page 14
+	Virtual address translation for 00003800
+		cache hit addr:00000038  set:1  entry:0
+		Physical address is 00008400
+	dram cache read addr: 00008400  value: 00380000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00008400 set:0  entry:0
+	done addr: 00003800 value: 14336
+read addr: 00003c00
+	tlb miss for page 15
+	Virtual address translation for 00003c00
+		cache hit addr:0000003c  set:1  entry:0
+		Physical address is 00008000
+	dram cache read addr: 00008000  value: 003c0000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00008000 set:0  entry:1
+	done addr: 00003c00 value: 15360
+read addr: 00004000
+	tlb miss for page 16
+	Virtual address translation for 00004000
+		cache hit addr:00000040  set:2  entry:0
+		Physical address is 00007c00
+	dram cache read addr: 00007c00  value: 00400000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00007c00 set:0  entry:0
+	done addr: 00004000 value: 16384
+read addr: 00004400
+	tlb miss for page 17
+	Virtual address translation for 00004400
+		cache hit addr:00000044  set:2  entry:0
+		Physical address is 00007800
+	dram cache read addr: 00007800  value: 00440000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00007800 set:0  entry:1
+	done addr: 00004400 value: 17408
+read addr: 00004800
+	tlb miss for page 18
+	Virtual address translation for 00004800
+		cache hit addr:00000048  set:2  entry:0
+		Physical address is 00007400
+	dram cache read addr: 00007400  value: 00480000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00007400 set:0  entry:0
+	done addr: 00004800 value: 18432
+read addr: 00004c00
+	tlb miss for page 19
+	Virtual address translation for 00004c00
+		cache hit addr:0000004c  set:2  entry:0
+		Physical address is 00007000
+	dram cache read addr: 00007000  value: 004c0000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00007000 set:0  entry:1
+	done addr: 00004c00 value: 19456
+read addr: 00005000
+	tlb miss for page 20
+	Virtual address translation for 00005000
+		cache hit addr:00000050  set:2  entry:0
+		Physical address is 00006c00
+	dram cache read addr: 00006c00  value: 00500000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00006c00 set:0  entry:0
+	done addr: 00005000 value: 20480
+read addr: 00005400
+	tlb miss for page 21
+	Virtual address translation for 00005400
+		cache hit addr:00000054  set:2  entry:0
+		Physical address is 00006800
+	dram cache read addr: 00006800  value: 00540000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00006800 set:0  entry:1
+	done addr: 00005400 value: 21504
+read addr: 00005800
+	tlb miss for page 22
+	Virtual address translation for 00005800
+		cache hit addr:00000058  set:2  entry:0
+		Physical address is 00006400
+	dram cache read addr: 00006400  value: 00580000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00006400 set:0  entry:0
+	done addr: 00005800 value: 22528
+read addr: 00005c00
+	tlb miss for page 23
+	Virtual address translation for 00005c00
+		cache hit addr:0000005c  set:2  entry:0
+		Physical address is 00006000
+	dram cache read addr: 00006000  value: 005c0000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00006000 set:0  entry:1
+	done addr: 00005c00 value: 23552
+read addr: 00006000
+	tlb miss for page 24
+	Virtual address translation for 00006000
+		cache hit addr:00000060  set:3  entry:0
+		Physical address is 00005c00
+	dram cache read addr: 00005c00  value: 00600000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00005c00 set:0  entry:0
+	done addr: 00006000 value: 24576
+read addr: 00006400
+	tlb miss for page 25
+	Virtual address translation for 00006400
+		cache hit addr:00000064  set:3  entry:0
+		Physical address is 00005800
+	dram cache read addr: 00005800  value: 00640000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00005800 set:0  entry:1
+	done addr: 00006400 value: 25600
+read addr: 00006800
+	tlb miss for page 26
+	Virtual address translation for 00006800
+		cache hit addr:00000068  set:3  entry:0
+		Physical address is 00005400
+	dram cache read addr: 00005400  value: 00680000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00005400 set:0  entry:0
+	done addr: 00006800 value: 26624
+read addr: 00006c00
+	tlb miss for page 27
+	Virtual address translation for 00006c00
+		cache hit addr:0000006c  set:3  entry:0
+		Physical address is 00005000
+	dram cache read addr: 00005000  value: 006c0000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00005000 set:0  entry:1
+	done addr: 00006c00 value: 27648
+read addr: 00007000
+	tlb miss for page 28
+	Virtual address translation for 00007000
+		cache hit addr:00000070  set:3  entry:0
+		Physical address is 00004c00
+	dram cache read addr: 00004c00  value: 00700000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00004c00 set:0  entry:0
+	done addr: 00007000 value: 28672
+read addr: 00007400
+	tlb miss for page 29
+	Virtual address translation for 00007400
+		cache hit addr:00000074  set:3  entry:0
+		Physical address is 00004800
+	dram cache read addr: 00004800  value: 00740000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00004800 set:0  entry:1
+	done addr: 00007400 value: 29696
+read addr: 00007800
+	tlb miss for page 30
+	Virtual address translation for 00007800
+		cache hit addr:00000078  set:3  entry:0
+		Physical address is 00004400
+	dram cache read addr: 00004400  value: 00780000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00004400 set:0  entry:0
+	done addr: 00007800 value: 30720
+read addr: 00007c00
+	tlb miss for page 31
+	Virtual address translation for 00007c00
+		cache hit addr:0000007c  set:3  entry:0
+		Physical address is 00004000
+	dram cache read addr: 00004000  value: 007c0000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00004000 set:0  entry:1
+	done addr: 00007c00 value: 31744
+starting tlb test
+
+write addr: 000028a4
+	tlb miss for page 10
+	Virtual address translation for 000028a4
+		cache hit addr:00000028  set:1  entry:0
+		Physical address is 000094a4
+	dram cache write addr: 000000a0  value: 47000000 46000000 45000000 44000000 43000000 42000000 41000000 40000000
+	dram cache read addr: 000094a0  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:000094a4 set:1  entry:1
+	done addr: 000028a4 value: 10404
+read addr: 000028a4
+	tlb hit for page 10
+	cache hit addr:000094a4  set:1  entry:1
+	done addr: 000028a4 value: 10404
+write addr: 000050b4
+	tlb miss for page 20
+	Virtual address translation for 000050b4
+		cache hit addr:00000050  set:2  entry:0
+		Physical address is 00006cb4
+	dram cache write addr: 00000020  value: 67000000 66000000 65000000 64000000 63000000 62000000 61000000 60000000
+	dram cache read addr: 00006ca0  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:00006cb4 set:1  entry:0
+	done addr: 000050b4 value: 20660
+read addr: 000050b4
+	tlb hit for page 20
+	cache hit addr:00006cb4  set:1  entry:0
+	done addr: 000050b4 value: 20660
+write addr: 000078c4
+	tlb miss for page 30
+	Virtual address translation for 000078c4
+		cache hit addr:00000078  set:3  entry:0
+		Physical address is 000044c4
+	dram cache write addr: 000000c0  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	dram cache read addr: 000044c0  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:000044c4 set:2  entry:1
+	done addr: 000078c4 value: 30916
+read addr: 000078c4
+	tlb hit for page 30
+	cache hit addr:000044c4  set:2  entry:1
+	done addr: 000078c4 value: 30916
+write addr: 000050b4
+	tlb hit for page 20
+	cache hit addr:00006cb4  set:1  entry:0
+	done addr: 000050b4 value: 20660
+read addr: 000050b4
+	tlb hit for page 20
+	cache hit addr:00006cb4  set:1  entry:0
+	done addr: 000050b4 value: 20660
+write addr: 000028a4
+	tlb miss for page 10
+	Virtual address translation for 000028a4
+		dram cache write addr: 000094a0  value: 00000000 a4280000 00000000 00000000 00000000 00000000 00000000 00000000
+		dram cache read addr: 00000020  value: 67000000 66000000 65000000 64000000 63000000 62000000 61000000 60000000
+		cache miss  addr:00000028 set:1  entry:1
+		Physical address is 000094a4
+	dram cache write addr: 00006ca0  value: 00000000 00000000 00000000 00000000 00000000 b4500000 00000000 00000000
+	dram cache read addr: 000094a0  value: 00000000 a4280000 00000000 00000000 00000000 00000000 00000000 00000000
+	cache miss  addr:000094a4 set:1  entry:0
+	done addr: 000028a4 value: 10404
+read addr: 000028a4
+	tlb hit for page 10
+	cache hit addr:000094a4  set:1  entry:0
+	done addr: 000028a4 value: 10404
+flush
+dram cache write addr: 000094a0  value: 00000000 a4280000 00000000 00000000 00000000 00000000 00000000 00000000
+dram cache write addr: 00000040  value: 5f000000 5e000000 5d000000 5c000000 5b000000 5a000000 59000000 58000000
+dram cache write addr: 000044c0  value: 00000000 c4780000 00000000 00000000 00000000 00000000 00000000 00000000
+dram cache write addr: 00000060  value: 57000000 56000000 55000000 54000000 53000000 52000000 51000000 50000000
+dram cache write addr: 000000e0  value: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+Run by anthony at Wed Apr 24 15:39:42 2024
+Performance
+cost: 3492
+DRAM reads: 0
+DRAM writes: 0
+cache line reads: 61
+cache line writes: 36
+cache hits: 113
+cache misses: 61
+tlb hits: 6
+tlb misses: 52
